@@ -1,241 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Regulamin – Animal Kingdom</title>
-  <meta name="description" content="Regulamin korzystania z aplikacji Animal Kingdom.">
-  <link rel="stylesheet" href="assets/style.css">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Regulamin – Animal Kingdom</title>
+<meta content="Regulamin korzystania z aplikacji Animal Kingdom." name="description"/>
+<link href="assets/style.css" rel="stylesheet"/>
+<style>
+
     .legal-document {
       color: var(--muted);
     }
+
+    .legal-document .doc-meta {
+      margin-bottom: 22px;
+    }
+
     .legal-document h3 {
       color: var(--text);
       font-size: 22px;
       margin: 30px 0 12px;
       letter-spacing: -0.03em;
     }
+
     .legal-document p,
     .legal-document li {
       color: var(--muted);
       font-size: 15.5px;
       line-height: 1.7;
+      font-weight: 400;
     }
+
     .legal-document p {
       margin: 0 0 12px;
     }
-    .legal-document ol {
+
+    .legal-document ol,
+    .legal-document ul {
       margin: 0 0 18px;
       padding-left: 1.35rem;
     }
+
     .legal-document li {
       margin-bottom: 8px;
     }
+
     .legal-document a {
       color: var(--accent);
       font-weight: 700;
       text-decoration: underline;
       text-underline-offset: 3px;
     }
-    .legal-document .doc-meta-line {
-      margin-bottom: 8px;
-    }
-    .legal-document .table-line {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    .legal-document .table-wrap {
+      width: 100%;
       overflow-x: auto;
-      white-space: pre;
-      background: rgba(255,255,255,0.045);
+      margin: 18px 0 22px;
       border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 10px 12px;
-      margin-bottom: 8px;
+      border-radius: 16px;
+    }
+
+    .legal-document table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .legal-document th,
+    .legal-document td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .legal-document th {
+      color: var(--text);
+      background: rgba(255,255,255,0.045);
+      font-weight: 800;
+    }
+
+    .legal-document tr:last-child td {
+      border-bottom: 0;
     }
   </style>
 </head>
 <body>
 <header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Animal Kingdom - strona główna">
-      <span class="brand-mark">AK</span>
-      <span>Animal Kingdom</span>
-    </a>
-    <nav class="nav" aria-label="Nawigacja główna">
-      <a href="index.html" >Strona główna</a>
-      <a href="kontakt.html" >Kontakt</a>
-      <a href="regulamin.html" class="active">Regulamin</a>
-      <a href="polityka-prywatnosci.html" >Polityka prywatności</a>
-    </nav>
-  </div>
+<div class="container header-inner">
+<a aria-label="Animal Kingdom - strona główna" class="brand" href="index.html">
+<span class="brand-mark">AK</span>
+<span>Animal Kingdom</span>
+</a>
+<nav aria-label="Nawigacja główna" class="nav">
+<a href="index.html">Strona główna</a>
+<a href="kontakt.html">Kontakt</a>
+<a class="active" href="regulamin.html">Regulamin</a>
+<a href="polityka-prywatnosci.html">Polityka prywatności</a>
+</nav>
+</div>
 </header>
 <main class="page">
-  <div class="container">
-    <div class="page-header">
-      <h1>Regulamin</h1>
-      <p class="lead">
+<div class="container">
+<div class="page-header">
+<h1>Regulamin</h1>
+<p class="lead">
         Tu znajdziesz zasady korzystania z aplikacji Animal Kingdom.
       </p>
-    </div>
-
-    <section class="document-card">
-      <h2>Regulamin aplikacji Animal Kingdom</h2>
-      <div class="placeholder legal-document">
-          <p class="doc-meta-line"><strong>Animal Kingdom | animal-kingdom.pl</strong></p>
-          <p class="doc-meta-line"><strong>Regulamin korzystania z aplikacji Animal Kingdom</strong></p>
-          <p class="doc-meta-line">Data ostatniej aktualizacji: 24 czerwca 2026 r.</p>
-          <h3>1. Postanowienia ogólne</h3>
-          <h3>1. Niniejszy regulamin określa zasady korzystania z aplikacji mobilnej Animal Kingdom oraz usług cyfrowych dostępnych za jej pośrednictwem.</h3>
-          <h3>2. Usługodawcą jest Bartłomiej Płoskonka prowadzący działalność gospodarczą pod firmą Spring Breeze - Bartłomiej Płoskonka, z adresem stałego miejsca wykonywania działalności: ul. Drozdów 1, 40-530 Katowice, NIP: 6342615417, REGON: 243213822, wpisany do Centralnej Ewidencji i Informacji o Działalności Gospodarczej, dalej jako „Usługodawca”.</h3>
-          <h3>3. Kontakt z Usługodawcą jest możliwy pod adresem e-mail: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</h3>
-          <h3>4. Animal Kingdom jest aplikacją edukacyjną przeznaczoną dla dzieci i ich rodziców lub opiekunów prawnych. Konto zakłada rodzic lub opiekun prawny, który jest stroną umowy i odpowiada za korzystanie z aplikacji przez dziecko.</h3>
-          <h3>5. Przed rozpoczęciem korzystania z aplikacji użytkownik powinien zapoznać się z Regulaminem oraz Polityką prywatności.</h3>
-          <h3>6. Korzystanie z aplikacji oznacza akceptację Regulaminu. Jeżeli użytkownik nie akceptuje Regulaminu, nie powinien zakładać konta ani korzystać z aplikacji.</h3>
-          <h3>2. Definicje</h3>
-          <p>• „Aplikacja” – aplikacja mobilna Animal Kingdom dostępna za pośrednictwem Google Play lub Apple App Store.</p>
-          <p>• „Usługa” – usługa cyfrowa świadczona przez Usługodawcę za pośrednictwem Aplikacji.</p>
-          <p>• „Użytkownik” – pełnoletnia osoba fizyczna korzystająca z Aplikacji, w szczególności rodzic lub opiekun prawny dziecka.</p>
-          <p>• „Dziecko” – osoba niepełnoletnia korzystająca z Aplikacji pod nadzorem Użytkownika.</p>
-          <p>• „Konto” – konto założone w Aplikacji przez Użytkownika.</p>
-          <p>• „Profil dziecka” – profil utworzony w ramach Konta, umożliwiający dziecku korzystanie z treści edukacyjnych i zapisywanie postępów.</p>
-          <p>• „Subskrypcja” – płatny dostęp do pełnej lub rozszerzonej wersji Usługi, odnawiany zgodnie z zasadami Google Play lub Apple App Store.</p>
-          <p>• „Sklep z aplikacjami” – Google Play lub Apple App Store.</p>
-          <p>• „Treści” – materiały dostępne w Aplikacji, w tym teksty, zadania, ćwiczenia, grafiki, ilustracje, animacje, dźwięki, elementy interfejsu, postacie, karty, pakiety, nagrody wirtualne oraz inne elementy Aplikacji.</p>
-          <h3>3. Charakter Usługi</h3>
-          <h3>1. Animal Kingdom umożliwia korzystanie z cyfrowych treści edukacyjnych wspierających naukę dziecka poprzez ćwiczenia, zadania, elementy grywalizacji i kolekcjonowania.</h3>
-          <h3>2. Usługa może obejmować w szczególności: ćwiczenia edukacyjne, zapisywanie postępów, dostosowywanie poziomu, profile dzieci, karty, pakiety kart, punkty, streaki, rankingi, ligi, tryby rywalizacji oraz inne funkcje dostępne w Aplikacji.</h3>
-          <h3>3. Zakres funkcji dostępnych dla Użytkownika może zależeć od tego, czy Użytkownik korzysta z wersji bezpłatnej, okresu próbnego albo aktywnej Subskrypcji.</h3>
-          <h3>4. Usługodawca może rozwijać Aplikację, dodawać nowe funkcje, zmieniać układ treści, poprawiać błędy oraz aktualizować Aplikację, pod warunkiem że zmiany nie naruszają praw konsumentów.</h3>
-          <h3>5. Aplikacja nie zastępuje formalnej edukacji szkolnej, konsultacji pedagogicznej ani indywidualnej opieki edukacyjnej. Jej celem jest wspieranie nauki i utrwalania wiedzy.</h3>
-          <h3>4. Wymagania techniczne</h3>
-          <h3>1. Do korzystania z Aplikacji potrzebne jest kompatybilne urządzenie mobilne, dostęp do internetu oraz aktualna lub wspierana wersja systemu Android albo iOS.</h3>
-          <h3>2. Szczegółowe wymagania techniczne mogą być wskazane w Google Play lub Apple App Store.</h3>
-          <h3>3. Usługodawca nie ponosi odpowiedzialności za problemy z działaniem Aplikacji wynikające z braku dostępu do internetu, używania niekompatybilnego urządzenia, ograniczeń systemu operacyjnego albo działania usług zewnętrznych, takich jak Google Play, Apple App Store, Google Sign-In lub Sign in with Apple.</h3>
-          <h3>4. Usługodawca może czasowo ograniczyć dostępność Aplikacji w celu konserwacji, aktualizacji, poprawy bezpieczeństwa lub usunięcia błędów.</h3>
-          <h3>5. Konto i korzystanie przez dzieci</h3>
-          <h3>1. Konto w Aplikacji zakłada Użytkownik będący osobą pełnoletnią, w szczególności rodzic lub opiekun prawny dziecka.</h3>
-          <h3>2. Dziecko może korzystać z Aplikacji wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego.</h3>
-          <h3>3. Użytkownik odpowiada za prawdziwość danych podanych przy zakładaniu Konta, bezpieczeństwo danych logowania, korzystanie z Aplikacji przez dziecko oraz decyzję o rozpoczęciu lub zakończeniu Subskrypcji.</h3>
-          <h3>4. Użytkownik nie powinien udostępniać danych logowania osobom nieuprawnionym.</h3>
-          <h3>5. W przypadku podejrzenia nieuprawnionego dostępu do Konta Użytkownik powinien niezwłocznie skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</h3>
-          <h3>6. Usługodawca może zablokować Konto lub ograniczyć dostęp do Aplikacji, jeżeli istnieje uzasadnione podejrzenie naruszenia Regulaminu, prawa lub bezpieczeństwa Usługi.</h3>
-          <h3>6. Rejestracja i dane konta</h3>
-          <h3>1. Do utworzenia Konta może być wymagany adres e-mail oraz dane techniczne niezbędne do działania Konta. Aplikacja może umożliwiać logowanie przez e-mail, Google Sign-In albo Sign in with Apple.</h3>
-          <h3>2. Jeżeli Użytkownik korzysta z logowania przez Google albo Apple, część danych identyfikacyjnych może zostać przekazana przez danego dostawcę logowania zgodnie z jego zasadami.</h3>
-          <h3>3. Szczegółowy zakres danych przetwarzanych przez Usługodawcę opisuje Polityka prywatności.</h3>
-          <h3>4. Użytkownik powinien podawać dane prawdziwe i aktualne.</h3>
-          <h3>5. Usługodawca może odmówić utworzenia Konta albo usunąć Konto, jeżeli Użytkownik podał nieprawdziwe dane, narusza Regulamin albo korzysta z Aplikacji w sposób niezgodny z jej przeznaczeniem.</h3>
-          <h3>7. Subskrypcja, ceny i płatności</h3>
-          <h3>1. Animal Kingdom może być dostępna w modelu subskrypcyjnym.</h3>
-          <h3>2. Subskrypcja umożliwia dostęp do płatnych funkcji Aplikacji przez okres wskazany w Google Play lub Apple App Store.</h3>
-          <h3>3. Dostępne warianty Subskrypcji, ceny, okres rozliczeniowy, ewentualny okres próbny oraz szczegółowe warunki płatności są każdorazowo prezentowane Użytkownikowi w Google Play lub Apple App Store przed dokonaniem zakupu.</h3>
-          <h3>4. Płatności za Subskrypcję są realizowane wyłącznie za pośrednictwem Google Play lub Apple App Store, zgodnie z zasadami danego sklepu.</h3>
-          <h3>5. Usługodawca nie przetwarza danych kart płatniczych Użytkownika i nie ma dostępu do pełnych danych płatniczych.</h3>
-          <h3>6. Subskrypcja odnawia się automatycznie zgodnie z zasadami sklepu, za pośrednictwem którego została zakupiona, chyba że Użytkownik anuluje ją przed końcem bieżącego okresu rozliczeniowego.</h3>
-          <h3>7. Subskrypcja miesięczna odnawia się na kolejny okres miesięczny, a Subskrypcja roczna odnawia się na kolejny okres roczny, chyba że warunki prezentowane w sklepie z aplikacjami stanowią inaczej.</h3>
-          <h3>8. Anulowanie Subskrypcji odbywa się w Google Play lub Apple App Store, w zależności od miejsca dokonania zakupu.</h3>
-          <h3>9. Po anulowaniu Subskrypcji Użytkownik zachowuje dostęp do płatnych funkcji do końca opłaconego okresu, chyba że zasady danego sklepu stanowią inaczej.</h3>
-          <h3>10. Po zakończeniu Subskrypcji Konto może pozostać aktywne, ale dostęp do płatnych funkcji może zostać ograniczony.</h3>
-          <h3>8. Okres próbny</h3>
-          <h3>1. Usługodawca może oferować bezpłatny okres próbny, jeżeli taka możliwość zostanie wskazana w Google Play lub Apple App Store.</h3>
-          <h3>2. Warunki okresu próbnego, w tym czas jego trwania, sposób anulowania oraz moment rozpoczęcia płatnej Subskrypcji, są prezentowane Użytkownikowi przed aktywacją okresu próbnego.</h3>
-          <h3>3. Jeżeli Użytkownik nie anuluje okresu próbnego zgodnie z zasadami Google Play lub Apple App Store, Subskrypcja może automatycznie przekształcić się w płatną Subskrypcję.</h3>
-          <h3>4. Punkt ten ma zastosowanie wyłącznie wtedy, gdy okres próbny jest faktycznie oferowany.</h3>
-          <h3>9. Zwroty, anulowanie i reklamacje płatności</h3>
-          <h3>1. Zakupy Subskrypcji dokonywane są za pośrednictwem Google Play lub Apple App Store.</h3>
-          <h3>2. Zwroty płatności za Subskrypcję są obsługiwane zgodnie z zasadami sklepu, za pośrednictwem którego dokonano zakupu.</h3>
-          <h3>3. Użytkownik chcący uzyskać zwrot płatności powinien skorzystać z procedury zwrotu dostępnej w Google Play albo Apple App Store.</h3>
-          <h3>4. Usługodawca może udzielić Użytkownikowi informacji pomocniczych dotyczących sposobu zgłoszenia problemu w sklepie z aplikacjami, ale nie gwarantuje przyznania zwrotu, ponieważ decyzja w tym zakresie może należeć do Google lub Apple.</h3>
-          <h3>5. Jeżeli zgodnie z obowiązującymi przepisami Użytkownikowi przysługują szczególne prawa konsumenckie dotyczące treści lub usług cyfrowych, prawa te nie są wyłączane przez niniejszy Regulamin.</h3>
-          <h3>6. W przypadku problemów technicznych z Subskrypcją Użytkownik może skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</h3>
-          <h3>10. Karty, pakiety, punkty i elementy grywalizacji</h3>
-          <h3>1. Aplikacja może zawierać elementy grywalizacji, takie jak punkty, waluta aplikacji, karty, pakiety kart, boostery, streaki, osiągnięcia, rankingi, ligi lub inne elementy wirtualne. Jeżeli Aplikacja umożliwia rankingi, ligi lub tryby rywalizacji, w takich funkcjach mogą być widoczne dla innych Użytkowników wyłącznie ograniczone informacje potrzebne do działania danej funkcji, takie jak pseudonim albo nazwa wyświetlana, wynik, miejsce w rankingu, poziom lub podstawowe informacje o postępach.</h3>
-          <h3>2. Na dzień publikacji Regulaminu płatność realnymi pieniędzmi dotyczy Subskrypcji. Aplikacja nie umożliwia zakupu kart, pakietów kart, boosterów ani waluty aplikacji za prawdziwe pieniądze, chyba że zostanie to wyraźnie wskazane w Aplikacji i Regulaminie.</h3>
-          <h3>3. Elementy grywalizacji służą wyłącznie do korzystania z funkcji Aplikacji i nie mają wartości pieniężnej. Nie są środkiem płatniczym, pieniądzem elektronicznym ani instrumentem finansowym.</h3>
-          <h3>4. Punktów, kart, pakietów, boosterów ani innych elementów wirtualnych nie można sprzedać, wypłacić, wymienić na pieniądze, przenieść poza Aplikację ani wymienić na świadczenia poza Aplikacją.</h3>
-          <h3>5. Aplikacja może umożliwiać otwieranie pakietów kart lub boosterów za punkty albo inną walutę zdobywaną w Aplikacji. Zawartość pakietów może być losowa. Użytkownik nie ma gwarancji otrzymania konkretnej karty, chyba że przy danym pakiecie wskazano gwarantowaną minimalną rzadkość karty. Gwarantowana minimalna rzadkość oznacza, że w pakiecie znajduje się co najmniej jedna karta o wskazanej rzadkości lub wyższej; pozostałe karty są losowane według prawdopodobieństw wskazanych w tabeli.</h3>
-          <h3>6. Aktualne koszty pakietów, boosterów lub innych elementów w punktach albo walucie aplikacji są prezentowane w Aplikacji i mogą się zmieniać bez konieczności zmiany Regulaminu, o ile nie dotyczą płatności realnymi pieniędzmi.</h3>
-          <p>Prawdopodobieństwa otrzymania poszczególnych typów kart w pakietach są następujące:</p>
-          <p class="table-line">Pakiet | Liczba kart | Gwarantowana minimalna rzadkość | White | Green | Red | Silver | Gold</p>
-          <p class="table-line">Basic | 2 | White | 50% | 25% | 15% | 8% | 2%</p>
-          <p class="table-line">Silver | 3 | Green | 40% | 30% | 20% | 8% | 2%</p>
-          <p class="table-line">Gold | 5 | Red | 30% | 30% | 25% | 12% | 3%</p>
-          <p class="table-line">Diamond | 8 | Silver | 20% | 30% | 30% | 15% | 5%</p>
-          <p>Aktualne koszty otwarcia lub uzyskania pakietów w punktach albo innej walucie aplikacji są prezentowane w aplikacji przed skorzystaniem z danej funkcji. Koszty te mogą się zmieniać i nie stanowią ceny w pieniądzu, o ile aplikacja nie wskazuje wyraźnie inaczej.</p>
-          <h3>7. Jeżeli w przyszłości Usługodawca wprowadzi możliwość zakupu waluty aplikacji, pakietów kart, boosterów lub innych losowych elementów za pieniądze, zasady takiego zakupu, cena oraz prawdopodobieństwa otrzymania poszczególnych elementów zostaną jasno przedstawione Użytkownikowi przed zakupem.</h3>
-          <h3>11. Zasady korzystania z Aplikacji</h3>
-          <h3>1. Użytkownik zobowiązuje się korzystać z Aplikacji zgodnie z prawem, Regulaminem i dobrymi obyczajami.</h3>
-          <h3>2. Zabronione jest w szczególności: obchodzenie zabezpieczeń Aplikacji, ingerowanie w kod lub infrastrukturę Aplikacji, uzyskiwanie nieuprawnionego dostępu do danych innych użytkowników, wykorzystywanie Aplikacji do celów komercyjnych bez zgody Usługodawcy oraz kopiowanie lub rozpowszechnianie Treści bez zgody Usługodawcy.</h3>
-          <h3>3. Aplikacja jest przeznaczona do użytku prywatnego i edukacyjnego.</h3>
-          <h3>4. Użytkownik nie może wykorzystywać Aplikacji ani jej Treści w szkołach, placówkach, firmach, zajęciach komercyjnych lub publicznych pokazach bez odrębnej zgody Usługodawcy, chyba że Usługodawca udostępni odpowiedni wariant Usługi.</h3>
-          <h3>12. Treści i prawa własności intelektualnej</h3>
-          <h3>1. Wszystkie prawa do Aplikacji, jej nazwy, logo, interfejsu, grafik, animacji, tekstów, zadań, postaci, kart, dźwięków, muzyki, kodu, układu funkcji i innych Treści przysługują Usługodawcy albo podmiotom, od których Usługodawca uzyskał odpowiednie prawa lub licencje.</h3>
-          <h3>2. Użytkownik otrzymuje niewyłączną, nieprzenoszalną, ograniczoną licencję na korzystanie z Aplikacji i Treści wyłącznie w zakresie potrzebnym do prywatnego korzystania z Usługi zgodnie z Regulaminem.</h3>
-          <h3>3. Użytkownik nie nabywa praw własności do Aplikacji ani Treści.</h3>
-          <h3>4. Zabronione jest kopiowanie, rozpowszechnianie, sprzedawanie, wynajmowanie, publiczne udostępnianie, modyfikowanie, dekompilowanie lub wykorzystywanie Treści poza Aplikacją bez zgody Usługodawcy, chyba że bezwzględnie obowiązujące przepisy prawa stanowią inaczej.</h3>
-          <h3>5. Jeżeli Aplikacja umożliwia dodanie przez Użytkownika imienia, pseudonimu, avatara lub innego elementu profilu, Użytkownik odpowiada za to, aby taki element nie naruszał prawa ani praw osób trzecich.</h3>
-          <h3>6. Na dzień publikacji Regulaminu Aplikacja nie służy do publikowania przez użytkowników komentarzy, postów, czatu ani innych treści społecznościowych, chyba że taka funkcja zostanie wyraźnie udostępniona w Aplikacji. Aplikacja nie umożliwia dzieciom swobodnej wymiany wiadomości z innymi użytkownikami.</h3>
-          <h3>13. Dane osobowe i prywatność</h3>
-          <h3>1. Zasady przetwarzania danych osobowych opisuje Polityka prywatności dostępna pod adresem: <a href="polityka-prywatnosci.html">https://animal-kingdom.pl/polityka-prywatnosci.html</a>.</h3>
-          <h3>2. Administratorem danych osobowych jest Bartłomiej Płoskonka prowadzący działalność gospodarczą pod firmą Spring Breeze - Bartłomiej Płoskonka.</h3>
-          <h3>3. Kontakt w sprawach prywatności i danych osobowych jest możliwy pod adresem e-mail: <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>.</h3>
-          <h3>4. Usługodawca przetwarza dane osobowe w szczególności w celu założenia i obsługi Konta, świadczenia Usługi, zapisywania postępów dziecka, obsługi Subskrypcji, obsługi zapytań i reklamacji, zapewnienia bezpieczeństwa Aplikacji oraz realizacji obowiązków prawnych.</h3>
-          <h3>5. Szczegółowy zakres danych, odbiorcy danych, okresy przechowywania oraz prawa Użytkownika są opisane w Polityce prywatności.</h3>
-          <h3>14. Reklamacje dotyczące działania Aplikacji</h3>
-          <h3>1. Użytkownik może złożyć reklamację dotyczącą działania Aplikacji, Konta lub Usługi, wysyłając wiadomość e-mail na adres: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</h3>
-          <h3>2. Reklamacja powinna zawierać adres e-mail powiązany z Kontem, opis problemu, datę wystąpienia problemu oraz informacje o urządzeniu i systemie operacyjnym, jeżeli są potrzebne do rozpatrzenia reklamacji.</h3>
-          <h3>3. Usługodawca rozpatrzy reklamację w terminie 14 dni od jej otrzymania, chyba że przepisy prawa wymagają innego terminu.</h3>
-          <h3>4. Jeżeli rozpatrzenie reklamacji wymaga dodatkowych informacji, Usługodawca może poprosić Użytkownika o ich przekazanie.</h3>
-          <h3>5. Odpowiedź na reklamację zostanie wysłana na adres e-mail, z którego zgłoszono reklamację, albo na adres powiązany z Kontem.</h3>
-          <h3>6. Reklamacje dotyczące płatności, zwrotów lub anulowania Subskrypcji mogą wymagać skorzystania z procedur Google Play albo Apple App Store.</h3>
-          <h3>15. Odpowiedzialność Usługodawcy</h3>
-          <h3>1. Usługodawca dokłada starań, aby Aplikacja działała prawidłowo i była bezpieczna.</h3>
-          <h3>2. Usługodawca nie gwarantuje, że Aplikacja będzie działała bez przerw, błędów lub awarii, szczególnie gdy przerwy wynikają z konserwacji, aktualizacji, działania zewnętrznych dostawców, problemów z internetem albo ograniczeń urządzenia Użytkownika.</h3>
-          <h3>3. Usługodawca nie odpowiada za brak dostępu do internetu po stronie Użytkownika, niekompatybilność urządzenia, błędną konfigurację urządzenia, działanie Google Play, Apple App Store, systemu Android lub iOS, szkody wynikające z udostępnienia danych logowania osobom trzecim oraz korzystanie z Aplikacji niezgodnie z Regulaminem.</h3>
-          <h3>4. Żadne postanowienie Regulaminu nie ogranicza praw konsumenta wynikających z bezwzględnie obowiązujących przepisów prawa.</h3>
-          <h3>16. Zmiany Regulaminu</h3>
-          <h3>1. Usługodawca może zmienić Regulamin z ważnych przyczyn, w szczególności zmiany przepisów prawa, zmiany funkcji Aplikacji, wprowadzenia nowych usług, zmiany zasad płatności lub Subskrypcji, potrzeby poprawy bezpieczeństwa albo konieczności doprecyzowania postanowień Regulaminu.</h3>
-          <h3>2. O zmianie Regulaminu Użytkownik zostanie poinformowany w Aplikacji, e-mailem albo w inny odpowiedni sposób.</h3>
-          <h3>3. Jeżeli zmiana Regulaminu istotnie wpływa na prawa lub obowiązki Użytkownika, Usługodawca poinformuje o tym z odpowiednim wyprzedzeniem.</h3>
-          <h3>4. Użytkownik, który nie akceptuje zmienionego Regulaminu, może zaprzestać korzystania z Aplikacji i anulować Subskrypcję zgodnie z zasadami Google Play lub Apple App Store.</h3>
-          <h3>5. Zmiany ceny Subskrypcji, okresu rozliczeniowego lub istotnych warunków płatności odbywają się zgodnie z zasadami Google Play lub Apple App Store i mogą wymagać akceptacji Użytkownika w sklepie z aplikacjami.</h3>
-          <h3>6. Zmiana Regulaminu nie narusza praw nabytych Użytkownika ani praw konsumenta wynikających z obowiązujących przepisów.</h3>
-          <h3>17. Zakończenie korzystania z Aplikacji i usunięcie Konta</h3>
-          <h3>1. Użytkownik może w każdym czasie przestać korzystać z Aplikacji.</h3>
-          <h3>2. Użytkownik może zażądać usunięcia Konta, kontaktując się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a> lub <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>, albo korzystając z informacji kontaktowych dostępnych pod adresem: <a href="kontakt.html">https://animal-kingdom.pl/kontakt.html</a>.</h3>
-          <h3>3. Usunięcie Konta nie oznacza automatycznego anulowania Subskrypcji w Google Play lub Apple App Store. Użytkownik powinien samodzielnie anulować Subskrypcję w sklepie, w którym została zakupiona.</h3>
-          <h3>4. Po usunięciu Konta dostęp do Aplikacji, profili dzieci, postępów, kart i innych elementów powiązanych z Kontem może zostać utracony.</h3>
-          <h3>5. Niektóre dane mogą być przechowywane po usunięciu Konta, jeżeli jest to wymagane przez przepisy prawa, potrzebne do rozpatrzenia reklamacji, dochodzenia roszczeń lub obrony przed roszczeniami. Szczegóły opisuje Polityka prywatności.</h3>
-          <h3>18. Brak reklam i marketingu bezpośredniego</h3>
-          <h3>1. Na dzień publikacji Regulaminu Aplikacja nie wyświetla reklam zewnętrznych.</h3>
-          <h3>2. Na dzień publikacji Regulaminu Usługodawca nie wysyła Użytkownikom marketingu bezpośredniego bez odrębnej zgody.</h3>
-          <h3>3. Jeżeli w przyszłości Usługodawca wprowadzi newsletter, powiadomienia marketingowe albo inne działania marketingowe wymagające zgody, Użytkownik zostanie poproszony o osobną zgodę.</h3>
-          <h3>4. Brak zgody marketingowej nie może uniemożliwiać korzystania z podstawowych funkcji Aplikacji, o ile marketing nie jest niezbędny do świadczenia danej usługi.</h3>
-          <h3>5. Dane dziecka nie są wykorzystywane do profilowania reklamowego, marketingu behawioralnego ani kierowania reklam na podstawie aktywności dziecka.</h3>
-          <h3>19. Prawo właściwe i spory</h3>
-          <h3>1. Regulamin podlega prawu polskiemu.</h3>
-          <h3>2. W przypadku sporu Użytkownik może skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a> w celu polubownego rozwiązania sprawy.</h3>
-          <h3>3. Konsument może skorzystać z pomocy miejskiego lub powiatowego rzecznika konsumentów, organizacji konsumenckich albo Prezesa Urzędu Ochrony Konkurencji i Konsumentów.</h3>
-          <h3>4. Spory pomiędzy Usługodawcą a konsumentem będą rozpatrywane przez właściwy sąd powszechny zgodnie z obowiązującymi przepisami.</h3>
-          <h3>5. Żadne postanowienie Regulaminu nie ogranicza praw konsumenta wynikających z przepisów prawa.</h3>
-          <h3>20. Kontakt</h3>
-          <h3>1. W sprawach dotyczących Aplikacji, Konta, Subskrypcji, reklamacji i wsparcia technicznego należy kontaktować się pod adresem: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</h3>
-          <h3>2. W sprawach dotyczących danych osobowych i prywatności należy kontaktować się pod adresem: <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>.</h3>
-          <h3>3. Kontakt: <a href="kontakt.html">https://animal-kingdom.pl/kontakt.html</a>.</h3>
-          <h3>4. Regulamin jest dostępny pod adresem: <a href="regulamin.html">https://animal-kingdom.pl/regulamin.html</a>.</h3>
-          <h3>5. Polityka prywatności jest dostępna pod adresem: <a href="polityka-prywatnosci.html">https://animal-kingdom.pl/polityka-prywatnosci.html</a>.</h3>
-      </div>
-    </section>
-  </div>
+</div>
+<section class="document-card">
+<h2>Regulamin aplikacji Animal Kingdom</h2>
+<div class="placeholder legal-document"><p class="doc-meta-line"><strong>Animal Kingdom | animal-kingdom.pl</strong></p><p class="doc-meta-line"><strong>Regulamin korzystania z aplikacji Animal Kingdom</strong></p><p class="doc-meta-line">Data ostatniej aktualizacji: 24 czerwca 2026 r.</p><h3>1. Postanowienia ogólne</h3><ol><li>Niniejszy regulamin określa zasady korzystania z aplikacji mobilnej Animal Kingdom oraz usług cyfrowych dostępnych za jej pośrednictwem.</li><li>Usługodawcą jest Bartłomiej Płoskonka prowadzący działalność gospodarczą pod firmą Spring Breeze - Bartłomiej Płoskonka, z adresem stałego miejsca wykonywania działalności: ul. Drozdów 1, 40-530 Katowice, NIP: 6342615417, REGON: 243213822, wpisany do Centralnej Ewidencji i Informacji o Działalności Gospodarczej, dalej jako „Usługodawca”.</li><li>Kontakt z Usługodawcą jest możliwy pod adresem e-mail: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</li><li>Animal Kingdom jest aplikacją edukacyjną przeznaczoną dla dzieci i ich rodziców lub opiekunów prawnych. Konto zakłada rodzic lub opiekun prawny, który jest stroną umowy i odpowiada za korzystanie z aplikacji przez dziecko.</li><li>Przed rozpoczęciem korzystania z aplikacji użytkownik powinien zapoznać się z Regulaminem oraz Polityką prywatności.</li><li>Korzystanie z aplikacji oznacza akceptację Regulaminu. Jeżeli użytkownik nie akceptuje Regulaminu, nie powinien zakładać konta ani korzystać z aplikacji.</li></ol><h3>2. Definicje</h3><ul><li>„Aplikacja” – aplikacja mobilna Animal Kingdom dostępna za pośrednictwem Google Play lub Apple App Store.</li><li>„Usługa” – usługa cyfrowa świadczona przez Usługodawcę za pośrednictwem Aplikacji.</li><li>„Użytkownik” – pełnoletnia osoba fizyczna korzystająca z Aplikacji, w szczególności rodzic lub opiekun prawny dziecka.</li><li>„Dziecko” – osoba niepełnoletnia korzystająca z Aplikacji pod nadzorem Użytkownika.</li><li>„Konto” – konto założone w Aplikacji przez Użytkownika.</li><li>„Profil dziecka” – profil utworzony w ramach Konta, umożliwiający dziecku korzystanie z treści edukacyjnych i zapisywanie postępów.</li><li>„Subskrypcja” – płatny dostęp do pełnej lub rozszerzonej wersji Usługi, odnawiany zgodnie z zasadami Google Play lub Apple App Store.</li><li>„Sklep z aplikacjami” – Google Play lub Apple App Store.</li><li>„Treści” – materiały dostępne w Aplikacji, w tym teksty, zadania, ćwiczenia, grafiki, ilustracje, animacje, dźwięki, elementy interfejsu, postacie, karty, pakiety, nagrody wirtualne oraz inne elementy Aplikacji.</li></ul><h3>3. Charakter Usługi</h3><ol><li>Animal Kingdom umożliwia korzystanie z cyfrowych treści edukacyjnych wspierających naukę dziecka poprzez ćwiczenia, zadania, elementy grywalizacji i kolekcjonowania.</li><li>Usługa może obejmować w szczególności: ćwiczenia edukacyjne, zapisywanie postępów, dostosowywanie poziomu, profile dzieci, karty, pakiety kart, punkty, streaki, rankingi, ligi, tryby rywalizacji oraz inne funkcje dostępne w Aplikacji.</li><li>Zakres funkcji dostępnych dla Użytkownika może zależeć od tego, czy Użytkownik korzysta z wersji bezpłatnej, okresu próbnego albo aktywnej Subskrypcji.</li><li>Usługodawca może rozwijać Aplikację, dodawać nowe funkcje, zmieniać układ treści, poprawiać błędy oraz aktualizować Aplikację, pod warunkiem że zmiany nie naruszają praw konsumentów.</li><li>Aplikacja nie zastępuje formalnej edukacji szkolnej, konsultacji pedagogicznej ani indywidualnej opieki edukacyjnej. Jej celem jest wspieranie nauki i utrwalania wiedzy.</li></ol><h3>4. Wymagania techniczne</h3><ol><li>Do korzystania z Aplikacji potrzebne jest kompatybilne urządzenie mobilne, dostęp do internetu oraz aktualna lub wspierana wersja systemu Android albo iOS.</li><li>Szczegółowe wymagania techniczne mogą być wskazane w Google Play lub Apple App Store.</li><li>Usługodawca nie ponosi odpowiedzialności za problemy z działaniem Aplikacji wynikające z braku dostępu do internetu, używania niekompatybilnego urządzenia, ograniczeń systemu operacyjnego albo działania usług zewnętrznych, takich jak Google Play, Apple App Store, Google Sign-In lub Sign in with Apple.</li><li>Usługodawca może czasowo ograniczyć dostępność Aplikacji w celu konserwacji, aktualizacji, poprawy bezpieczeństwa lub usunięcia błędów.</li></ol><h3>5. Konto i korzystanie przez dzieci</h3><ol><li>Konto w Aplikacji zakłada Użytkownik będący osobą pełnoletnią, w szczególności rodzic lub opiekun prawny dziecka.</li><li>Dziecko może korzystać z Aplikacji wyłącznie za zgodą i pod nadzorem rodzica lub opiekuna prawnego.</li><li>Użytkownik odpowiada za prawdziwość danych podanych przy zakładaniu Konta, bezpieczeństwo danych logowania, korzystanie z Aplikacji przez dziecko oraz decyzję o rozpoczęciu lub zakończeniu Subskrypcji.</li><li>Użytkownik nie powinien udostępniać danych logowania osobom nieuprawnionym.</li><li>W przypadku podejrzenia nieuprawnionego dostępu do Konta Użytkownik powinien niezwłocznie skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</li><li>Usługodawca może zablokować Konto lub ograniczyć dostęp do Aplikacji, jeżeli istnieje uzasadnione podejrzenie naruszenia Regulaminu, prawa lub bezpieczeństwa Usługi.</li></ol><h3>6. Rejestracja i dane konta</h3><ol><li>Do utworzenia Konta może być wymagany adres e-mail oraz dane techniczne niezbędne do działania Konta. Aplikacja może umożliwiać logowanie przez e-mail, Google Sign-In albo Sign in with Apple.</li><li>Jeżeli Użytkownik korzysta z logowania przez Google albo Apple, część danych identyfikacyjnych może zostać przekazana przez danego dostawcę logowania zgodnie z jego zasadami.</li><li>Szczegółowy zakres danych przetwarzanych przez Usługodawcę opisuje Polityka prywatności.</li><li>Użytkownik powinien podawać dane prawdziwe i aktualne.</li><li>Usługodawca może odmówić utworzenia Konta albo usunąć Konto, jeżeli Użytkownik podał nieprawdziwe dane, narusza Regulamin albo korzysta z Aplikacji w sposób niezgodny z jej przeznaczeniem.</li></ol><h3>7. Subskrypcja, ceny i płatności</h3><ol><li>Animal Kingdom może być dostępna w modelu subskrypcyjnym.</li><li>Subskrypcja umożliwia dostęp do płatnych funkcji Aplikacji przez okres wskazany w Google Play lub Apple App Store.</li><li>Dostępne warianty Subskrypcji, ceny, okres rozliczeniowy, ewentualny okres próbny oraz szczegółowe warunki płatności są każdorazowo prezentowane Użytkownikowi w Google Play lub Apple App Store przed dokonaniem zakupu.</li><li>Płatności za Subskrypcję są realizowane wyłącznie za pośrednictwem Google Play lub Apple App Store, zgodnie z zasadami danego sklepu.</li><li>Usługodawca nie przetwarza danych kart płatniczych Użytkownika i nie ma dostępu do pełnych danych płatniczych.</li><li>Subskrypcja odnawia się automatycznie zgodnie z zasadami sklepu, za pośrednictwem którego została zakupiona, chyba że Użytkownik anuluje ją przed końcem bieżącego okresu rozliczeniowego.</li><li>Subskrypcja miesięczna odnawia się na kolejny okres miesięczny, a Subskrypcja roczna odnawia się na kolejny okres roczny, chyba że warunki prezentowane w sklepie z aplikacjami stanowią inaczej.</li><li>Anulowanie Subskrypcji odbywa się w Google Play lub Apple App Store, w zależności od miejsca dokonania zakupu.</li><li>Po anulowaniu Subskrypcji Użytkownik zachowuje dostęp do płatnych funkcji do końca opłaconego okresu, chyba że zasady danego sklepu stanowią inaczej.</li><li>Po zakończeniu Subskrypcji Konto może pozostać aktywne, ale dostęp do płatnych funkcji może zostać ograniczony.</li></ol><h3>8. Okres próbny</h3><ol><li>Usługodawca może oferować bezpłatny okres próbny, jeżeli taka możliwość zostanie wskazana w Google Play lub Apple App Store.</li><li>Warunki okresu próbnego, w tym czas jego trwania, sposób anulowania oraz moment rozpoczęcia płatnej Subskrypcji, są prezentowane Użytkownikowi przed aktywacją okresu próbnego.</li><li>Jeżeli Użytkownik nie anuluje okresu próbnego zgodnie z zasadami Google Play lub Apple App Store, Subskrypcja może automatycznie przekształcić się w płatną Subskrypcję.</li><li>Punkt ten ma zastosowanie wyłącznie wtedy, gdy okres próbny jest faktycznie oferowany.</li></ol><h3>9. Zwroty, anulowanie i reklamacje płatności</h3><ol><li>Zakupy Subskrypcji dokonywane są za pośrednictwem Google Play lub Apple App Store.</li><li>Zwroty płatności za Subskrypcję są obsługiwane zgodnie z zasadami sklepu, za pośrednictwem którego dokonano zakupu.</li><li>Użytkownik chcący uzyskać zwrot płatności powinien skorzystać z procedury zwrotu dostępnej w Google Play albo Apple App Store.</li><li>Usługodawca może udzielić Użytkownikowi informacji pomocniczych dotyczących sposobu zgłoszenia problemu w sklepie z aplikacjami, ale nie gwarantuje przyznania zwrotu, ponieważ decyzja w tym zakresie może należeć do Google lub Apple.</li><li>Jeżeli zgodnie z obowiązującymi przepisami Użytkownikowi przysługują szczególne prawa konsumenckie dotyczące treści lub usług cyfrowych, prawa te nie są wyłączane przez niniejszy Regulamin.</li><li>W przypadku problemów technicznych z Subskrypcją Użytkownik może skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</li></ol><h3>10. Karty, pakiety, punkty i elementy grywalizacji</h3><ol><li>Aplikacja może zawierać elementy grywalizacji, takie jak punkty, waluta aplikacji, karty, pakiety kart, boostery, streaki, osiągnięcia, rankingi, ligi lub inne elementy wirtualne. Jeżeli Aplikacja umożliwia rankingi, ligi lub tryby rywalizacji, w takich funkcjach mogą być widoczne dla innych Użytkowników wyłącznie ograniczone informacje potrzebne do działania danej funkcji, takie jak pseudonim albo nazwa wyświetlana, wynik, miejsce w rankingu, poziom lub podstawowe informacje o postępach.</li><li>Na dzień publikacji Regulaminu płatność realnymi pieniędzmi dotyczy Subskrypcji. Aplikacja nie umożliwia zakupu kart, pakietów kart, boosterów ani waluty aplikacji za prawdziwe pieniądze, chyba że zostanie to wyraźnie wskazane w Aplikacji i Regulaminie.</li><li>Elementy grywalizacji służą wyłącznie do korzystania z funkcji Aplikacji i nie mają wartości pieniężnej. Nie są środkiem płatniczym, pieniądzem elektronicznym ani instrumentem finansowym.</li><li>Punktów, kart, pakietów, boosterów ani innych elementów wirtualnych nie można sprzedać, wypłacić, wymienić na pieniądze, przenieść poza Aplikację ani wymienić na świadczenia poza Aplikacją.</li><li>Aplikacja może umożliwiać otwieranie pakietów kart lub boosterów za punkty albo inną walutę zdobywaną w Aplikacji. Zawartość pakietów może być losowa. Użytkownik nie ma gwarancji otrzymania konkretnej karty, chyba że przy danym pakiecie wskazano gwarantowaną minimalną rzadkość karty. Gwarantowana minimalna rzadkość oznacza, że w pakiecie znajduje się co najmniej jedna karta o wskazanej rzadkości lub wyższej; pozostałe karty są losowane według prawdopodobieństw wskazanych w tabeli.</li><li>Aktualne koszty pakietów, boosterów lub innych elementów w punktach albo walucie aplikacji są prezentowane w Aplikacji i mogą się zmieniać bez konieczności zmiany Regulaminu, o ile nie dotyczą płatności realnymi pieniędzmi.</li></ol><p>Prawdopodobieństwa otrzymania poszczególnych typów kart w pakietach są następujące:</p><div class="table-wrap"><table><thead><tr><th>Pakiet</th><th>Liczba kart</th><th>Gwarantowana minimalna rzadkość</th><th>White</th><th>Green</th><th>Red</th><th>Silver</th><th>Gold</th></tr></thead><tbody><tr><td>Basic</td><td>2</td><td>White</td><td>50%</td><td>25%</td><td>15%</td><td>8%</td><td>2%</td></tr><tr><td>Silver</td><td>3</td><td>Green</td><td>40%</td><td>30%</td><td>20%</td><td>8%</td><td>2%</td></tr><tr><td>Gold</td><td>5</td><td>Red</td><td>30%</td><td>30%</td><td>25%</td><td>12%</td><td>3%</td></tr><tr><td>Diamond</td><td>8</td><td>Silver</td><td>20%</td><td>30%</td><td>30%</td><td>15%</td><td>5%</td></tr></tbody></table></div><ol start="7"><li>Aktualne koszty otwarcia lub uzyskania pakietów w punktach albo innej walucie aplikacji są prezentowane w aplikacji przed skorzystaniem z danej funkcji. Koszty te mogą się zmieniać i nie stanowią ceny w pieniądzu, o ile aplikacja nie wskazuje wyraźnie inaczej.</li><li>Jeżeli w przyszłości Usługodawca wprowadzi możliwość zakupu waluty aplikacji, pakietów kart, boosterów lub innych losowych elementów za pieniądze, zasady takiego zakupu, cena oraz prawdopodobieństwa otrzymania poszczególnych elementów zostaną jasno przedstawione Użytkownikowi przed zakupem.</li></ol><h3>11. Zasady korzystania z Aplikacji</h3><ol><li>Użytkownik zobowiązuje się korzystać z Aplikacji zgodnie z prawem, Regulaminem i dobrymi obyczajami.</li><li>Zabronione jest w szczególności: obchodzenie zabezpieczeń Aplikacji, ingerowanie w kod lub infrastrukturę Aplikacji, uzyskiwanie nieuprawnionego dostępu do danych innych użytkowników, wykorzystywanie Aplikacji do celów komercyjnych bez zgody Usługodawcy oraz kopiowanie lub rozpowszechnianie Treści bez zgody Usługodawcy.</li><li>Aplikacja jest przeznaczona do użytku prywatnego i edukacyjnego.</li><li>Użytkownik nie może wykorzystywać Aplikacji ani jej Treści w szkołach, placówkach, firmach, zajęciach komercyjnych lub publicznych pokazach bez odrębnej zgody Usługodawcy, chyba że Usługodawca udostępni odpowiedni wariant Usługi.</li></ol><h3>12. Treści i prawa własności intelektualnej</h3><ol><li>Wszystkie prawa do Aplikacji, jej nazwy, logo, interfejsu, grafik, animacji, tekstów, zadań, postaci, kart, dźwięków, muzyki, kodu, układu funkcji i innych Treści przysługują Usługodawcy albo podmiotom, od których Usługodawca uzyskał odpowiednie prawa lub licencje.</li><li>Użytkownik otrzymuje niewyłączną, nieprzenoszalną, ograniczoną licencję na korzystanie z Aplikacji i Treści wyłącznie w zakresie potrzebnym do prywatnego korzystania z Usługi zgodnie z Regulaminem.</li><li>Użytkownik nie nabywa praw własności do Aplikacji ani Treści.</li><li>Zabronione jest kopiowanie, rozpowszechnianie, sprzedawanie, wynajmowanie, publiczne udostępnianie, modyfikowanie, dekompilowanie lub wykorzystywanie Treści poza Aplikacją bez zgody Usługodawcy, chyba że bezwzględnie obowiązujące przepisy prawa stanowią inaczej.</li><li>Jeżeli Aplikacja umożliwia dodanie przez Użytkownika imienia, pseudonimu, avatara lub innego elementu profilu, Użytkownik odpowiada za to, aby taki element nie naruszał prawa ani praw osób trzecich.</li><li>Na dzień publikacji Regulaminu Aplikacja nie służy do publikowania przez użytkowników komentarzy, postów, czatu ani innych treści społecznościowych, chyba że taka funkcja zostanie wyraźnie udostępniona w Aplikacji. Aplikacja nie umożliwia dzieciom swobodnej wymiany wiadomości z innymi użytkownikami.</li></ol><h3>13. Dane osobowe i prywatność</h3><ol><li>Zasady przetwarzania danych osobowych opisuje Polityka prywatności dostępna pod adresem: <a href="polityka-prywatnosci.html">https://animal-kingdom.pl/polityka-prywatnosci.html</a>.</li><li>Administratorem danych osobowych jest Bartłomiej Płoskonka prowadzący działalność gospodarczą pod firmą Spring Breeze - Bartłomiej Płoskonka.</li><li>Kontakt w sprawach prywatności i danych osobowych jest możliwy pod adresem e-mail: <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>.</li><li>Usługodawca przetwarza dane osobowe w szczególności w celu założenia i obsługi Konta, świadczenia Usługi, zapisywania postępów dziecka, obsługi Subskrypcji, obsługi zapytań i reklamacji, zapewnienia bezpieczeństwa Aplikacji oraz realizacji obowiązków prawnych.</li><li>Szczegółowy zakres danych, odbiorcy danych, okresy przechowywania oraz prawa Użytkownika są opisane w Polityce prywatności.</li></ol><h3>14. Reklamacje dotyczące działania Aplikacji</h3><ol><li>Użytkownik może złożyć reklamację dotyczącą działania Aplikacji, Konta lub Usługi, wysyłając wiadomość e-mail na adres: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</li><li>Reklamacja powinna zawierać adres e-mail powiązany z Kontem, opis problemu, datę wystąpienia problemu oraz informacje o urządzeniu i systemie operacyjnym, jeżeli są potrzebne do rozpatrzenia reklamacji.</li><li>Usługodawca rozpatrzy reklamację w terminie 14 dni od jej otrzymania, chyba że przepisy prawa wymagają innego terminu.</li><li>Jeżeli rozpatrzenie reklamacji wymaga dodatkowych informacji, Usługodawca może poprosić Użytkownika o ich przekazanie.</li><li>Odpowiedź na reklamację zostanie wysłana na adres e-mail, z którego zgłoszono reklamację, albo na adres powiązany z Kontem.</li><li>Reklamacje dotyczące płatności, zwrotów lub anulowania Subskrypcji mogą wymagać skorzystania z procedur Google Play albo Apple App Store.</li></ol><h3>15. Odpowiedzialność Usługodawcy</h3><ol><li>Usługodawca dokłada starań, aby Aplikacja działała prawidłowo i była bezpieczna.</li><li>Usługodawca nie gwarantuje, że Aplikacja będzie działała bez przerw, błędów lub awarii, szczególnie gdy przerwy wynikają z konserwacji, aktualizacji, działania zewnętrznych dostawców, problemów z internetem albo ograniczeń urządzenia Użytkownika.</li><li>Usługodawca nie odpowiada za brak dostępu do internetu po stronie Użytkownika, niekompatybilność urządzenia, błędną konfigurację urządzenia, działanie Google Play, Apple App Store, systemu Android lub iOS, szkody wynikające z udostępnienia danych logowania osobom trzecim oraz korzystanie z Aplikacji niezgodnie z Regulaminem.</li><li>Żadne postanowienie Regulaminu nie ogranicza praw konsumenta wynikających z bezwzględnie obowiązujących przepisów prawa.</li></ol><h3>16. Zmiany Regulaminu</h3><ol><li>Usługodawca może zmienić Regulamin z ważnych przyczyn, w szczególności zmiany przepisów prawa, zmiany funkcji Aplikacji, wprowadzenia nowych usług, zmiany zasad płatności lub Subskrypcji, potrzeby poprawy bezpieczeństwa albo konieczności doprecyzowania postanowień Regulaminu.</li><li>O zmianie Regulaminu Użytkownik zostanie poinformowany w Aplikacji, e-mailem albo w inny odpowiedni sposób.</li><li>Jeżeli zmiana Regulaminu istotnie wpływa na prawa lub obowiązki Użytkownika, Usługodawca poinformuje o tym z odpowiednim wyprzedzeniem.</li><li>Użytkownik, który nie akceptuje zmienionego Regulaminu, może zaprzestać korzystania z Aplikacji i anulować Subskrypcję zgodnie z zasadami Google Play lub Apple App Store.</li><li>Zmiany ceny Subskrypcji, okresu rozliczeniowego lub istotnych warunków płatności odbywają się zgodnie z zasadami Google Play lub Apple App Store i mogą wymagać akceptacji Użytkownika w sklepie z aplikacjami.</li><li>Zmiana Regulaminu nie narusza praw nabytych Użytkownika ani praw konsumenta wynikających z obowiązujących przepisów.</li></ol><h3>17. Zakończenie korzystania z Aplikacji i usunięcie Konta</h3><ol><li>Użytkownik może w każdym czasie przestać korzystać z Aplikacji.</li><li>Użytkownik może zażądać usunięcia Konta, kontaktując się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a> lub <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>, albo korzystając z informacji kontaktowych dostępnych pod adresem: <a href="kontakt.html">https://animal-kingdom.pl/kontakt.html</a>.</li><li>Usunięcie Konta nie oznacza automatycznego anulowania Subskrypcji w Google Play lub Apple App Store. Użytkownik powinien samodzielnie anulować Subskrypcję w sklepie, w którym została zakupiona.</li><li>Po usunięciu Konta dostęp do Aplikacji, profili dzieci, postępów, kart i innych elementów powiązanych z Kontem może zostać utracony.</li><li>Niektóre dane mogą być przechowywane po usunięciu Konta, jeżeli jest to wymagane przez przepisy prawa, potrzebne do rozpatrzenia reklamacji, dochodzenia roszczeń lub obrony przed roszczeniami. Szczegóły opisuje Polityka prywatności.</li></ol><h3>18. Brak reklam i marketingu bezpośredniego</h3><ol><li>Na dzień publikacji Regulaminu Aplikacja nie wyświetla reklam zewnętrznych.</li><li>Na dzień publikacji Regulaminu Usługodawca nie wysyła Użytkownikom marketingu bezpośredniego bez odrębnej zgody.</li><li>Jeżeli w przyszłości Usługodawca wprowadzi newsletter, powiadomienia marketingowe albo inne działania marketingowe wymagające zgody, Użytkownik zostanie poproszony o osobną zgodę.</li><li>Brak zgody marketingowej nie może uniemożliwiać korzystania z podstawowych funkcji Aplikacji, o ile marketing nie jest niezbędny do świadczenia danej usługi.</li><li>Dane dziecka nie są wykorzystywane do profilowania reklamowego, marketingu behawioralnego ani kierowania reklam na podstawie aktywności dziecka.</li></ol><h3>19. Prawo właściwe i spory</h3><ol><li>Regulamin podlega prawu polskiemu.</li><li>W przypadku sporu Użytkownik może skontaktować się z Usługodawcą pod adresem <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a> w celu polubownego rozwiązania sprawy.</li><li>Konsument może skorzystać z pomocy miejskiego lub powiatowego rzecznika konsumentów, organizacji konsumenckich albo Prezesa Urzędu Ochrony Konkurencji i Konsumentów.</li><li>Spory pomiędzy Usługodawcą a konsumentem będą rozpatrywane przez właściwy sąd powszechny zgodnie z obowiązującymi przepisami.</li><li>Żadne postanowienie Regulaminu nie ogranicza praw konsumenta wynikających z przepisów prawa.</li></ol><h3>20. Kontakt</h3><ol><li>W sprawach dotyczących Aplikacji, Konta, Subskrypcji, reklamacji i wsparcia technicznego należy kontaktować się pod adresem: <a href="mailto:support@animal-kingdom.pl">support@animal-kingdom.pl</a>.</li><li>W sprawach dotyczących danych osobowych i prywatności należy kontaktować się pod adresem: <a href="mailto:privacy@animal-kingdom.pl">privacy@animal-kingdom.pl</a>.</li><li>Kontakt: <a href="kontakt.html">https://animal-kingdom.pl/kontakt.html</a>.</li><li>Regulamin jest dostępny pod adresem: <a href="regulamin.html">https://animal-kingdom.pl/regulamin.html</a>.</li><li>Polityka prywatności jest dostępna pod adresem: <a href="polityka-prywatnosci.html">https://animal-kingdom.pl/polityka-prywatnosci.html</a>.</li></ol></div>
+</section>
+</div>
 </main>
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <span>© 2026 Animal Kingdom. Wszelkie prawa zastrzeżone.</span>
-    <div class="footer-links">
-      <a href="kontakt.html">Kontakt</a>
-      <a href="regulamin.html">Regulamin</a>
-      <a href="polityka-prywatnosci.html">Polityka prywatności</a>
-    </div>
-  </div>
+<div class="container footer-inner">
+<span>© 2026 Animal Kingdom. Wszelkie prawa zastrzeżone.</span>
+<div class="footer-links">
+<a href="kontakt.html">Kontakt</a>
+<a href="regulamin.html">Regulamin</a>
+<a href="polityka-prywatnosci.html">Polityka prywatności</a>
+</div>
+</div>
 </footer>
 </body>
 </html>
